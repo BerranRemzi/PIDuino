@@ -47,19 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\PIDuino\Arduino.cs">
+    <Compile Include="Arduino.cs">
       <SubType>Form</SubType>
-      <Link>Arduino.cs</Link>
     </Compile>
-    <Compile Include="..\PIDuino\Arduino.Designer.cs">
+    <Compile Include="Arduino.Designer.cs">
       <DependentUpon>Arduino.cs</DependentUpon>
-      <Link>Arduino.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\PIDuino\Arduino.resx">
+    <EmbeddedResource Include="Arduino.resx">
       <DependentUpon>Arduino.cs</DependentUpon>
-      <Link>Arduino.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
